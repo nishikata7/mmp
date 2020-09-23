@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+*, body{
+        padding: 0;
+        margin: 0;    
+}
+
+/* header */
+.navbar-inverse .navbar-brand{
+    color: #dfdfc5 !important;
+}
+.navbar-inverse .navbar-brand:hover{
+    color: darken($color: #dfdfc5, $amount: 50%) !important;
+}
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    .navbar-brand{
+        font-size: 25px;
+        padding-top: 18px;
+    }
+    ul{
+        font-size: 20px;
+    }
+    .navbar-right{
+        font-size: 30px;
+        a{
+            color: #dfdfc5 !important;
+        }
+        a:hover{
+            color: darken($color: #dfdfc5, $amount: 50%) !important;
+        }
+    }
+    .navbar-left{
+        padding-top: 3px;
+        a{
+            color: #dfdfc5 !important;
+        }
+        a:hover{
+            color: darken($color: #dfdfc5, $amount: 50%) !important;
+        }
+    }
+}
+.content{
+    min-height: 100vh;
+}
+.main-content{
+    background-image: url("../img/水色水玉中.png");
+}
+.blog-content{
+    min-height: 500vh;
+    background-image: url("../img/黄色水玉.jpg");
+    .title-icon{
+        padding-top: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h3{
+        text-align: center;
+        font-family: 'Sacramento', cursive;
+        font-size: 60px;
+        padding-bottom: 150px;
+    }
+    .main-blog-content{
+        .row{
+            .article{
+                margin-top: 40px;
+                margin-right: 30px;
+                height: 270px;
+                background-color: rgb(233, 204, 183, 0.5);
+                img{
+                    width: 270px;
+                    height: 270px;
+                    object-fit: cover;
+                }
+                h2{
+                    margin-bottom: 30px;
+                }
+                .left{
+                    right: 15px;
+                }
+                .right{
+                    left: 10px;
+                }
+            }
+        }
+    }
+}
+/* お知らせ */
+.carousel-caption{
+    background-color: rgb(0, 0, 0, 0.2);
+    color: #dfdfc5;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    h1{
+        margin-top: 0px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+/* Profile */
+.profile{
+    .row{
+        padding-top: 100px;
+        text-align: center;
+        .profile-bg{
+            background-color: rgba(255, 228, 241, 0.7);
+            padding-top: 40px;
+            min-height: 450px;
+            border-radius: 100px;
+            h2{
+                font-family: 'Kosugi Maru', sans-serif;
+            }
+        }
+    }
+}
+.welcome{
+    h1{
+        margin: 0;
+        font-family: 'Pacifico', cursive;
+        font-size: 60px;
+        padding-bottom: 20px;
+        text-shadow: 4px 4px rgb(245, 253, 171);
+    }
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+}

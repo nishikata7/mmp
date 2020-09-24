@@ -113,7 +113,8 @@ nav{
 }
 /* お知らせ */
 .carousel-caption{
-    background-color: rgb(0, 0, 0, 0.2);
+    // background-color: rgb(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right, rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0));
     color: #dfdfc5;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     h1{
@@ -127,8 +128,14 @@ nav{
 /* Profile */
 .profile{
     .row{
-        padding-top: 100px;
+        padding-top: 50px;
         text-align: center;
+        h1{
+            padding: 100px;
+            font-family: 'Pacifico', cursive;
+            font-size: 60px;
+            text-shadow: 4px 4px rgb(245, 253, 171);
+        }
         .profile-bg{
             background-color: rgba(255, 228, 241, 0.7);
             padding-top: 40px;
@@ -144,6 +151,10 @@ nav{
             .img{
                 border: solid;
                 border-style: double;
+            }
+            p{
+                margin-right: 30px;
+                margin-left: 30px;
             }
         }
     }

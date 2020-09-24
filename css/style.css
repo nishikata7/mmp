@@ -136,10 +136,18 @@ nav .navbar-left a:hover {
   background-color: rgba(255, 228, 241, 0.7);
   padding-top: 40px;
   min-height: 450px;
-  border-radius: 100px;
+  border-radius: 120px;
+  border: solid;
+  border-color: whitesmoke;
+  border-style: dashed;
+  border-width: 9px;
 }
 .profile .row .profile-bg h2 {
   font-family: "Kosugi Maru", sans-serif;
+}
+.profile .row .profile-bg .img {
+  border: solid;
+  border-style: double;
 }
 
 .welcome {

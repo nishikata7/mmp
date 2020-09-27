@@ -67,17 +67,24 @@ nav{
     }.blog-title{
         padding-top: 200px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 0px;
+        background-color: rgba(255, 255, 255, 0.7);
     }
     .blog-main{
         margin-left: 200px;
         margin-right: 200px;
+        background-color: rgba(255, 255, 255, 0.7);
         h4{
             text-align: right;
+            margin: 0px;
         }
         p{
             font-size: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
         }
         img{
             display: block;
